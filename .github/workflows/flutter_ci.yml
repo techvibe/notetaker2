@@ -24,3 +24,15 @@ jobs:
 
     - name: Run tests
       run: flutter test
+
+    - name: Build Web Application
+      run: flutter build web --release
+    
+    - name: Make copy of artifacts
+      run: |
+        chmod u+x "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
+        bash "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
+
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Commit the artifacts.
