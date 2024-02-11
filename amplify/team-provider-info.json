@@ -1,0 +1,15 @@
+{
+  "devela": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-notetaker2-devela-162900-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767398000229:role/amplify-notetaker2-devela-162900-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767398000229:role/amplify-notetaker2-devela-162900-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-notetaker2-devela-162900-deployment",
+      "UnauthRoleName": "amplify-notetaker2-devela-162900-unauthRole",
+      "StackName": "amplify-notetaker2-devela-162900",
+      "StackId": "arn:aws:cloudformation:us-east-1:767398000229:stack/amplify-notetaker2-devela-162900/f4b1c8a0-c92c-11ee-9948-122a8d1b3deb",
+      "AmplifyAppId": "dql245mvrjxwc"
+    }
+  }
+}
