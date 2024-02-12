@@ -87,7 +87,7 @@ class _NoteTakingScreenState extends State<NoteTakingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Notes'),
+        title: Text('Note Taker'),
       ),
       body: ListView.builder(
         itemCount: _notes.length,
