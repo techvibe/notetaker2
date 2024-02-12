@@ -75841,7 +75841,7 @@ return A.W($async$zI,r)},
 a7e(a){var s=this.c
 s.toString
 A.nh(s,!1).mB(A.alV(new A.abx(a),null,t.z))},
-M(a){var s=null,r=A.ak8(A.fj("Notes",s,s,s,s,s,s)),q=this.d.length,p=!0
+M(a){var s=null,r=A.ak8(A.fj("Note Taker",s,s,s,s,s,s)),q=this.d.length,p=!0
 p=p?B.xP:s
 return A.amH(r,new A.G4(new A.a59(new A.abB(this),q,!0,!0,!0,s),s,B.b6,!1,s,s,p,!1,s,q,B.aE,B.I8,s,B.ax,s),A.alf(A.FH(B.BW,s),!1,this.gWM(),"Add Note"))}}
 A.abw.prototype={
