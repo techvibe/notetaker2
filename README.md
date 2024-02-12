@@ -1,6 +1,6 @@
 # notetaker2
 
-A new Flutter project.
+A simple Flutter project to create, view, delete notes.
 
 ## Getting Started
 
