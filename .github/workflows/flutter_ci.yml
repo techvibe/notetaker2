@@ -11,6 +11,11 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
+
     steps:
     - uses: actions/checkout@v3
 
@@ -33,6 +38,6 @@ jobs:
         chmod u+x "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
         bash "${GITHUB_WORKSPACE}/createandcopytofolder.sh"
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Commit the artifacts.
