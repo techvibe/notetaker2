@@ -7,7 +7,7 @@ void main() {
     testWidgets('Screen should display AppBar with correct title', (WidgetTester tester) async {
       await tester.pumpWidget(MaterialApp(home: NoteTakingScreen()));
 
-      expect(find.text('Notes'), findsOneWidget);
+      expect(find.text('Note Taker'), findsOneWidget);
       expect(find.byType(FloatingActionButton), findsOneWidget);
     });
 
